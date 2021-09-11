@@ -9,42 +9,42 @@ function initMap() {
   let styleOptions = new google.maps.StyledMapType(
     [
       {
-        featureType : 'all',
-         stylers : [
+        featureType: 'all',
+        stylers: [
           { 'saturation': -150 },
           { 'visibility': 'on' },
           { 'lightness': 22 },
         ]
       },
       {
-        futureType : 'landscape.natural',
-        stylers : [
-          { 'color' : '#87ceeb' },
+        futureType: 'landscape.natural',
+        stylers: [
+          { 'color': '#87ceeb' },
         ]
       },
       {
-futureType : 'poi.attraction',
-stylers : [
-  {}
-]
+        futureType: 'poi.attraction',
+        stylers: [
+          {}
+        ]
       },
-    
+
       {
-        featureType : "road",
-        elementType : "geometry",
-        stylers : [
+        featureType: "road",
+        elementType: "geometry",
+        stylers: [
           { 'color': '#6a1917' },
           { 'saturation': -50 },
 
         ]
-      }, 
+      },
       {
 
-        futureType : 'geometry',
-        elementType : 'labels.text',
-        stylers : [
+        futureType: 'geometry',
+        elementType: 'labels.text',
+        stylers: [
           { 'visibillity': 'inherit' },
-          { 'color': '#black'},
+          { 'color': '#black' },
         ]
       }
 
